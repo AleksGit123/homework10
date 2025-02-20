@@ -1,2 +1,40 @@
 /* 768 - 481 */
 
+@media(max-width:880px) {
+
+    /* header  */
+
+    .index-header {
+        padding-inline: 24px;
+    }
+
+    .page-nav {
+        display: none;
+    }
+
+    .header-button {
+        display: none;
+    }
+
+    .burger-div {
+        display: flex;
+    }
+
+    /* .section1 */
+
+    .section1 {
+        height: 420px;
+    }
+
+    /* section2 */
+
+    .section2 {
+        padding: 24px;
+    }
+
+    /* footer */
+
+    .index-footer {
+        padding-inline: 209px;
+    }
+}

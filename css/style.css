@@ -83,11 +83,22 @@
     height: 48px;
     border-radius: 32px;
     background-color: #C46A2B;
+    transition: .4s;
+}
+
+.burger-div:hover {
+
+    transform: translateY(-5px)
+}
+
+.burger-div:hover .burger-menu {
+    font-size: 20px;
 }
 
 .burger-menu {
     font-size: 18px;
     color: #DEE2EB;
+    transition: .4s;
 }
 
 /* section 1 */
