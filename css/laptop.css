@@ -1,0 +1,31 @@
+/*1440px-769 */
+
+@media (max-width: 1300px) {
+
+    /* header */
+
+    .index-header {
+        padding-inline: 64px;
+    }
+
+    /* section1 */
+    .section1 {
+        height: 560px;
+    }
+
+    /* section 2 */
+    .section2 {
+        padding: 64px;
+
+    }
+
+    .article-section {
+        overflow-x: scroll;
+    }
+
+    /* footer */
+
+    .index-footer {
+        padding-inline: 302px
+    }
+}
