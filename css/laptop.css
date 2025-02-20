@@ -30,3 +30,12 @@
     }
 }
 
+
+@media(max-width:1030px) {
+
+    .index-footer {
+        justify-content: center;
+        column-gap: 40px;
+
+    }
+}
