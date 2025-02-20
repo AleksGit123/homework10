@@ -23,6 +23,11 @@
         padding-inline: 8px
     }
 
+    .section2-heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
     /* footer */
 
     .index-footer {
@@ -44,4 +49,3 @@
 
 
 }
-
