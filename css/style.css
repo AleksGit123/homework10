@@ -38,17 +38,25 @@
 }
 
 .page-links {
-
     font-weight: 500;
+    transition: .3s;
+}
+
+.page-links:hover {
+
+    text-shadow: 0 3px 3px #8d8b8b,
+        0 3px 4px #8d8b8b;
 
 }
 
 .active {
     color: #C46A2B;
+
 }
 
+
 .inactive {
-    color: #DEE2EB
+    color: #DEE2EB;
 }
 
 .header-button {
@@ -59,7 +67,12 @@
     height: 48px;
     border: none;
     border-radius: 32px;
+    transition: .4s;
+}
 
+.header-button:hover {
+    box-shadow: 0 5px 4px -1px#FFFFFF;
+    transform: translateY(-10px)
 }
 
 .burger-div {
@@ -148,6 +161,12 @@
     flex-shrink: 0;
     justify-content: center;
     padding: 8px 8px 16px;
+    transition: .4s;
+}
+
+.card-article:hover {
+    box-shadow: 0 20px 4px 4px #5A3B2E;
+    transform: translateY(-10px);
 }
 
 .image-div {
@@ -202,4 +221,48 @@
 .shopping {
     font-size: 16px;
     color: #DEE2EB;
+}
+
+/* footer */
+
+.index-footer {
+    background-color: #311500;
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 372px;
+}
+
+.footer-heading {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #D9D9D9;
+    margin-bottom: 24px;
+
+}
+
+.footer-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.links {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #D9D9D9;
+}
+
+.social-ul {
+    display: flex;
+    gap: 16px;
+}
+
+.icon {
+    font-size: 32px;
 }
