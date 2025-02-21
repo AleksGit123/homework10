@@ -38,8 +38,9 @@
         row-gap: 40px;
     }
 
-    .footer-heading {
-        justify-self: center;
+    .index-footer section {
+        align-items: center;
+        justify-content: center;
     }
 
     .index-footer ul {
