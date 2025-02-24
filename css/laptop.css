@@ -22,15 +22,9 @@
     .article-section {
         overflow-x: scroll;
     }
-
-    /* footer */
-
-    .index-footer {
-        padding-inline: 302px
-    }
 }
 
-
+/* 
 @media(max-width:1030px) {
 
     .index-footer {
@@ -38,4 +32,4 @@
         column-gap: 40px;
 
     }
-}
+} */

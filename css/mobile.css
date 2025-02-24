@@ -4,7 +4,7 @@
     /* header */
 
     .index-header {
-        padding-inline: 8px;
+        padding-left: 8px;
     }
 
     /* section1 */
@@ -15,6 +15,11 @@
     .section1-heading {
         font-size: 32px;
         line-height: 40px;
+        margin-bottom: 24px;
+    }
+
+    .card-article {
+        flex-basis: 260px;
     }
 
     /* section2 */
@@ -32,15 +37,13 @@
 
     .index-footer {
         flex-direction: column;
-        padding: 24px 201px;
+        padding-block: 24px;
         align-items: center;
-        justify-content: center;
         row-gap: 40px;
     }
 
     .index-footer section {
-        align-items: center;
-        justify-content: center;
+        text-align: center;
     }
 
     .index-footer ul {

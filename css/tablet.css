@@ -35,6 +35,6 @@
     /* footer */
 
     .index-footer {
-        padding-inline: 209px;
+        column-gap: 40px;
     }
 }
